@@ -10,3 +10,10 @@ __Contacts:__
 * ##### Perseverance
 * ##### Curiosity
 * ##### Thirst for experimentation
+### Skills:
+* #### HTML5
+* #### CSS3
+* #### JavaScript(some basics)
+* #### GIT
+* #### SOLID principles, some patterns, OOP principles
+* #### Adobe Photoshop
