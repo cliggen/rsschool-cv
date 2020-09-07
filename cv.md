@@ -17,3 +17,11 @@ __Contacts:__
 * #### GIT
 * #### SOLID principles, some patterns, OOP principles
 * #### Adobe Photoshop
+### Education:
+* #### learn.javascript.ru
+* #### codewars.com's tasks
+* #### CS50 Harvard
+* #### David Flanagan. Javascript The Definitive Guide
+
+### English:
+* #### __B1-B2__ Level of English
