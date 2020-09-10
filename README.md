@@ -1,1 +1,1 @@
- https://cliggen.github.io/rsschool-cv/cv
+ https://cliggen.github.io/rsschool-cv/
