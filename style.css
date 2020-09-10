@@ -1,0 +1,70 @@
+
+
+body {
+	text-align: center;
+	font-family: "Open Sans", "Tahoma", sans-serif;
+}
+
+.content {
+	display: inline-block;
+	width: 80%;
+	max-width: 1024px;
+	padding-top: 40px;
+	text-align: left;
+}
+
+.photo,
+.title {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.photo {
+	--photo-res: 200px;
+	width: var(--photo-res);
+	height: var(--photo-res * 1.5);
+	margin-right: 20px;
+	border-radius: 30px;
+}
+
+.contacts img {
+	vertical-align: middle;
+	width: 18px;
+	padding-left: 10px;
+}
+
+header p,
+header p a,
+a {
+	color: black;
+	font-weight: 600;
+}
+
+p.contacts {
+	text-align: center;
+}
+
+h1 {
+	margin: 0 0 20px 0;
+	font-size: 320%;
+	line-height: 110%;
+}
+
+@media (max-width: 1024px) {
+	header {
+		text-align: center;
+	}
+}
+
+@media (max-width: 512px) {
+	h1 {
+		font-size: 250%;
+		line-height: 100%;
+	}
+	.photo {
+		width: calc(var(--photo-res)/1.5);
+		height: calc(var(--photo-res)/1);
+		margin-bottom: 18px;
+	}
+}
+
