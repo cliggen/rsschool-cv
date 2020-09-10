@@ -1,0 +1,79 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 150%;
+    font-family: "Verdana", "Tahoma", sans-serif;
+    text-align: center;
+}
+
+.content {
+	display: inline-block;
+	width: 80%;
+	max-width: 1024px;
+	padding-top: 40px;
+	text-align: left;
+}
+
+.photo,
+.title {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.photo {
+	width: 200px;
+	height: 350px;
+	margin-right: 20px;
+	border-radius: 30px;
+}
+
+.contacts img {
+	vertical-align: middle;
+	width: 18px;
+	padding-left: 10px;
+}
+
+header p,
+header p a,
+footer p,
+a {
+	color: black;
+    font-weight: 600;
+}
+
+p.contacts {
+	text-align: center;
+}
+
+h1 {
+	margin: 0 0 20px 0;
+	font-size: 320%;
+	line-height: 110%;
+}
+main h2 {
+    text-decoration: underline;
+}
+main p:not(:first-child)::before {
+    content: "•";
+}
+
+@media (max-width: 1024px) {
+	header {
+		text-align: center;
+	}
+}
+
+@media (max-width: 512px) {
+	h1 {
+		font-size: 250%;
+		line-height: 100%;
+	}
+	.photo {
+        width: 150px;
+        height: 250px;
+		margin-bottom: 18px;
+	}
+}
+
