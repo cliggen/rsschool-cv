@@ -1,8 +1,11 @@
 
 
 body {
-	text-align: center;
-	font-family: "Open Sans", "Tahoma", sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 150%;
+    font-family: "Verdana", "Tahoma", sans-serif;
+    text-align: center;
 }
 
 .content {
@@ -20,9 +23,8 @@ body {
 }
 
 .photo {
-	--photo-res: 200px;
-	width: var(--photo-res);
-	height: var(--photo-res * 1.5);
+	width: 200px;
+	height: 350px;
 	margin-right: 20px;
 	border-radius: 30px;
 }
@@ -35,9 +37,10 @@ body {
 
 header p,
 header p a,
+footer p,
 a {
 	color: black;
-	font-weight: 600;
+    font-weight: 600;
 }
 
 p.contacts {
@@ -48,6 +51,12 @@ h1 {
 	margin: 0 0 20px 0;
 	font-size: 320%;
 	line-height: 110%;
+}
+main h2 {
+    text-decoration: underline;
+}
+main p:not(:first-child)::before {
+    content: "•";
 }
 
 @media (max-width: 1024px) {
@@ -62,8 +71,8 @@ h1 {
 		line-height: 100%;
 	}
 	.photo {
-		width: calc(var(--photo-res)/1.5);
-		height: calc(var(--photo-res)/1);
+        width: 150px;
+        height: 250px;
 		margin-bottom: 18px;
 	}
 }
